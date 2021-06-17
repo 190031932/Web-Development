@@ -1,0 +1,251 @@
+html{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #dcdcdc;
+}
+/* navigation Bar*/
+.topnav {
+	overflow: hidden;
+	background-color: #fff;
+	height: 60px;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	color: red;
+  }
+
+.logo-img{
+	display: inline-block;
+	margin-left: 45%;
+}
+span{
+	margin-left: 14px;
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+}
+.logo{
+	border-radius: 10px;
+}
+
+.topnav a{
+	float: right;
+	font-weight: bolder;
+	font-size: 24px;
+}
+/*hiding Menu List Items*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:#fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/***Magazine***/
+/* adding styles to magazine section*/
+
+.magazines{
+	display: flex;
+	margin-bottom: 20px;
+}
+.mag-content{
+	width: 58%;
+	background-color: #dcdcdc;
+	border-right: 1px solid #fff;
+	text-align: center;
+}
+
+.slide-content{
+	margin: 0px auto;
+}
+
+.mySlides {
+	display:none;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+/*NOTIFICATIONS*/
+
+/*color: #FF5049
+  color: #28B9B5
+  
+*/
+.notifications{
+	width: 41%;
+ }
+.ucontainer{
+    width: 100%;
+	height: 380px;
+    margin: 0px auto;
+	background-color: #dcdcdc;
+	overflow-y: scroll;
+	padding: 0px 7px;
+}
+.ucontainer::-webkit-scrollbar {
+    display: none;
+}
+.content{
+    text-align: center;
+}
+.item {
+    padding: 12px;
+    border-bottom: 2px solid #e7e7e7;
+    background-color: #28B9B5;
+    color: #fff;
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+
+.item:first-child { border-top: 1px solid #e7e7e7; }
+.item:nth-child(even) { background-color: #f7f7f7; 
+                        color:gray;
+                    }
+
+/*About Us*/
+
+.containerfluid{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.hero-text{
+	padding: 30px;
+	margin: 0px 0px 20px 0px;
+}
+#hr-line{
+	width: 60%;
+	border: 2px solid #ff0000;
+	background-color:#ff0000;
+	margin-bottom: 45px;
+}
+
+.hero-body{
+	width: 60%;
+	margin: 0px auto;
+	padding-bottom: 30px;
+}
+
+.drone-img{
+	background-image: url(./de40f50776b54f62b3e0cd4ca4ea679c.webp);
+	height: 450px;
+}
+
+.drone-img3{
+	background-image: url(./Editable-E-Magazine-Example.jpg);
+	height: 450px;
+}
+
+.drone-img,.drone-img3{
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul{
+	text-align: left;
+}
+.img-e{
+	width: 100%;
+	height: 450px;
+}
+
+/*Submit your article section*/
+
+.Submitarticle{
+    background-color:#5D6D7E;
+       background-image:url("https://cdn.hipwallpaper.com/i/5/9/fiTYsW.jpg");
+       justify-content:center;
+       align-items:center;
+}
+
+.submitform{
+     margin:0px auto;
+                width: 35%;
+                padding:30px;
+                font-size:20px;
+}
+
+input[type=text],select
+            {
+                width:100%;
+                padding:12px 20px;
+                margin:8px 0;
+                display:inline-block;
+                border:1px solid #ccc;
+                box-sizing: border-box;
+                font-size: 14px;
+            }
+input[type=submit]:hover
+    {
+        background-color: #2f4f4f;
+    }
+
+.formtitle{
+    color: black;
+    text-align: center;
+}
+div label{
+                color: black;
+            }
+
+
+
+/*Contact Us*/
+.bi-instagram{
+	color:#E1306C ;
+}
+.bi-facebook{
+	color: #4267B2;
+}
+.bi-twitter{
+	color: #00acee;
+}
+.bi-linkedin{
+	color: #0077b5;
+}
